@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+*{
+   box-sizing: inherit; 
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+/* container */
+.content_area{
+    width: 1174px;
+    margin: 0 auto;
+}
+    
+.container footer{
+    width: 100%;
+    height: 208px;
+    background-color: #2D2d30;
+}
+.container .container__content{
+    height: auto;
+    min-height: 50vh;
+
+}
+/*header*/
+.container header{
+    width: 100%;
+    height: 178px;
+}
+.container header .header_content{
+    height: 178px;
+    margin: 0 auto;
+}
+.container header .header_content .logo{
+    width: auto;
+    height: 47px;
+    margin-top: 74px;
+    float: left;
+    
+}
+.container header .header_content .logo img{
+    height: 47px;
+}
+.container header .header_content .nav{
+    width: auto;
+    height: 47px;
+    margin-top: 74px;
+    float: right;
+    
+}
+/*head slogan*/
+.head_slogan{
+    height: 208px;
+    background-color: #F1F4F5;
+}
+.head_slogan .content{
+    padding-top: 68px;
+}
+.head_slogan .content h1{
+    font-family: 'bebas neue' cursive;
+    font-size: 38px;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #4d4d4d;
+}
+.head_slogan .content p{
+    font-family: 'roboto' cursive;
+    font-size: 15px;
+    line-height: 38px;
+    color:#808080;
+}
+/*gallery*/
+.gallery{
+    height: 1206px;
+    background-color: turquoise;
+}
+/*project*/
+.project{
+    height: 520px;
+    background-color: tomato;
+}
+/*news*/
+.news{
+    height: 690px;
+    background-color: yellow;
+}
