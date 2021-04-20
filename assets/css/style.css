@@ -6,6 +6,16 @@ body{
 *{
    box-sizing: inherit; 
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #EF5F60;
+    cursor: pointer;
+}
+.clearfix{
+    clear: both;
+}
 .float-left{
     float: left;
 }
@@ -212,20 +222,29 @@ button:hover{
 }
 /*news*/
 .news{
-    height: 690px;
+    height: auto;
 }
 .news-items{
     margin-top: 40px;
 }
 .news-items .item{
-    width: 50%;
+    margin: 15px;
+    width: calc(50% - 30px);
     height: 183px;
-    float: left;
 }
 .news-items .item .news-img{
     width: 183;
     height: 183;
 }
 .news-items .item .news-content{
+    width: calc(100% - 203px);
     margin-left: 20px;
+}
+.news-items .item .news-content .date-info{
+    font-family: 'bebas neue', cursive;
+    letter-spacing: 1.36px;
+    text-transform: uppercase;
+    color: #C3C3C3;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
