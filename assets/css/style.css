@@ -166,6 +166,7 @@ header .header_content .nav{
     height: 939px;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .gallery-container .gallery-items .item{
     width: 380px;
